@@ -1,5 +1,5 @@
 ## These functions calculate the inverse of a given matrix and
-## store the invoice for later retrival.
+## store the inverse for later retrival.
 ##
 ## When an inverse is requested a second or subsequent time the functions will
 ## return the cached value thereby saving computation time.
@@ -7,9 +7,10 @@
 ## The following functions have been adapted from similar functions
 ## in CachingMean.R provided in the R Programming course with Roger Peng et al.
 
+
 ## This function creates a vector of 4 functions. These functions set and get
 ## a matrix defined in this function space. Also setinverse and getinverse 
-## record and retrieve the inverse matrix to x.
+## record and retrieve the inverse of matrix x.
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
