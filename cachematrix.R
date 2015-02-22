@@ -1,5 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These functions calculate the inverse of a given matrix and
+## store the invoice for later retrival.
+##
+## When an inverse is requested a second or subsequent time the functions will
+## return the cached value thereby saving computation time.
 
 ## Write a short comment describing this function
 
