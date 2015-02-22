@@ -27,7 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Reture the invoice matrix. Check to see if the inverse is cached and return
+## Reture the inverse matrix. Check to see if the inverse is cached and return
 ## cached value if it is. Otherwise calculate, cache
 ## and return the inverse matrix.
 
